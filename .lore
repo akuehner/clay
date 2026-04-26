@@ -1,0 +1,3 @@
+# L.O.R.E. project config — committed, not gitignored
+project_id: clay
+health_monitoring: basic
