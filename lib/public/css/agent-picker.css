@@ -98,23 +98,20 @@
   font-weight: 600;
 }
 
-/* Session-row badge for sessions cast as a named agent (Step 6 hookup). */
+/* Session-row badge for sessions cast as a named agent (Step 6 hookup).
+ * Icon-only — agent name lives in the `title` tooltip. Matches the
+ * lock-icon convention for private sessions and prevents the agent name
+ * from leaking into window title via .session-item-text.textContent. */
 .session-item .session-agent-badge {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  justify-content: center;
   color: var(--accent, #63b3ed);
-  background: var(--accent-bg, rgba(99, 179, 237, 0.12));
-  padding: 1px 6px;
-  border-radius: 3px;
-  margin-left: 6px;
+  margin-right: 4px;
   vertical-align: middle;
 }
 
 .session-item .session-agent-badge i {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
 }
