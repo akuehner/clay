@@ -1,10 +1,8 @@
 # External Trigger: Context-Injected Session Spawn
 
-**Status:** Design proposal — pending implementation decision
+**Status:** Implemented — shipped in akuehner/clay PR #22 (lr-790e). Upstream issue to be filed separately (lr-a953).
 
-**Decision required:** (a) implement in akuehner/clay with upstream PR target, (b) implement in akuehner/clay fork-only, or (c) defer.
-
-**Recommendation:** **(a) implement in akuehner/clay, upstream PR target** — see §5.
+**Decision (a):** implemented in akuehner/clay fork; upstream issue filed for chadbyte/clay consideration — see §5.
 
 ---
 
