@@ -9,6 +9,10 @@
   overscroll-behavior-y: contain;
   padding: 20px 0 12px;
   position: relative;
+  /* Isolate layout/style from the rest of the page. Style mutations inside
+     (syntax highlighting, streaming innerHTML, classList toggles) no longer
+     trigger a full-document style recalc — only the subtree is invalidated. */
+  contain: layout style;
 }
 
 /* --- Remote cursors (Figma-style) --- */
@@ -134,6 +138,8 @@
   max-width: var(--content-width);
   margin: 0 auto 8px;
   padding: 0 20px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 60px;
 }
 
 .msg-user .bubble {
@@ -230,6 +236,10 @@
   padding: 4px 20px;
   border-radius: 12px;
   transition: background 0.15s;
+  /* Skip paint+layout for off-screen messages. contain-intrinsic-size gives
+     the browser a size estimate so scrollbar height stays stable. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 80px;
 }
 
 .msg-assistant:hover {
