@@ -1,3 +1,72 @@
+## [2.36.2-beta.6](https://github.com/chadbyte/clay/compare/v2.36.2-beta.5...v2.36.2-beta.6) (2026-05-05)
+
+
+### Bug Fixes
+
+* **pin:** unify forced-PIN-change UI through main app overlay ([a5f37dc](https://github.com/chadbyte/clay/commit/a5f37dcd326c05c5be045b8260fb19f550925b85))
+
+## [2.36.2-beta.5](https://github.com/chadbyte/clay/compare/v2.36.2-beta.4...v2.36.2-beta.5) (2026-05-05)
+
+
+### Bug Fixes
+
+* **pin:** allow forced PIN change without re-entering temp PIN, add logout ([fb04677](https://github.com/chadbyte/clay/commit/fb04677024df95349c61cf117dff3abd96f4b516))
+
+## [2.36.2-beta.4](https://github.com/chadbyte/clay/compare/v2.36.2-beta.3...v2.36.2-beta.4) (2026-05-05)
+
+
+### Bug Fixes
+
+* **pin:** mirror login PIN UI on temp PIN setup overlay ([c2af16d](https://github.com/chadbyte/clay/commit/c2af16da37f46144beabae5d44dffbbd662184af))
+
+## [2.36.2-beta.3](https://github.com/chadbyte/clay/compare/v2.36.2-beta.2...v2.36.2-beta.3) (2026-05-05)
+
+
+### Bug Fixes
+
+* **pin:** show focus indicator and reliable digit capture on temp PIN setup ([77e6b88](https://github.com/chadbyte/clay/commit/77e6b88dfd07b85785a2edcd2b74792bac53bfeb))
+
+## [2.36.2-beta.2](https://github.com/chadbyte/clay/compare/v2.36.2-beta.1...v2.36.2-beta.2) (2026-05-03)
+
+
+### Bug Fixes
+
+* **context:** show correct model name and 1M window for [1m] beta models ([f145c9f](https://github.com/chadbyte/clay/commit/f145c9f7b2af97f5567232ebc588357b0fe763e2))
+* **model:** resolve shorthand model names against vendor model list ([d8d11c6](https://github.com/chadbyte/clay/commit/d8d11c6ff229dad1fa806f1c90ae290cd4c8d721))
+
+## [2.36.2-beta.1](https://github.com/chadbyte/clay/compare/v2.36.1...v2.36.2-beta.1) (2026-05-03)
+
+
+### Performance Improvements
+
+* **resume:** batch syntax highlight, compact dead-session todos, lower initial page ([182c6ca](https://github.com/chadbyte/clay/commit/182c6cacae1d7fd73fae6734f8e3fd1f09038c2a)), closes [#342](https://github.com/chadbyte/clay/issues/342) [#345](https://github.com/chadbyte/clay/issues/345)
+
+## [2.36.1](https://github.com/chadbyte/clay/compare/v2.36.0...v2.36.1) (2026-05-03)
+
+
+### Bug Fixes
+
+* **app-messages:** drop stray agent-picker import and case blocks ([edea532](https://github.com/chadbyte/clay/commit/edea532324cd237c47ccc371befc05ba1201e264)), closes [chadbyte/clay#342](https://github.com/chadbyte/clay/issues/342)
+* **email:** allow full email entry for all providers ([0adf66a](https://github.com/chadbyte/clay/commit/0adf66a01610f18c147baee99708828b9e58b9c2))
+* **input:** gate stop branch on live processing state; never send ghost suggestion on stop click ([6722ef5](https://github.com/chadbyte/clay/commit/6722ef5d0c1c9e2a0218526e36743bcf2c754d34)), closes [#337](https://github.com/chadbyte/clay/issues/337)
+* preserve model selection on browser refresh ([5313879](https://github.com/chadbyte/clay/commit/5313879e9e74c4e346a7629d60c400697ed9d8b4))
+* **scroll:** pin viewport to bottom on resume so deferred layout can't strand user mid-conversation ([34ffc1a](https://github.com/chadbyte/clay/commit/34ffc1a07f9dc602b387bd23bcd3bc80cda11575)), closes [#messages](https://github.com/chadbyte/clay/issues/messages)
+* **sdk:** use session vendor adapter for auto title generation ([d476ef1](https://github.com/chadbyte/clay/commit/d476ef1e0004b27648921c0764b99de9c01a4575)), closes [#344](https://github.com/chadbyte/clay/issues/344)
+
+## [2.36.1-beta.5](https://github.com/chadbyte/clay/compare/v2.36.1-beta.4...v2.36.1-beta.5) (2026-05-03)
+
+
+### Bug Fixes
+
+* **email:** allow full email entry for all providers ([0adf66a](https://github.com/chadbyte/clay/commit/0adf66a01610f18c147baee99708828b9e58b9c2))
+
+## [2.36.1-beta.4](https://github.com/chadbyte/clay/compare/v2.36.1-beta.3...v2.36.1-beta.4) (2026-05-03)
+
+
+### Bug Fixes
+
+* **sdk:** use session vendor adapter for auto title generation ([d476ef1](https://github.com/chadbyte/clay/commit/d476ef1e0004b27648921c0764b99de9c01a4575)), closes [#344](https://github.com/chadbyte/clay/issues/344)
+
 ## [2.36.1-beta.3](https://github.com/chadbyte/clay/compare/v2.36.1-beta.2...v2.36.1-beta.3) (2026-04-29)
 
 
