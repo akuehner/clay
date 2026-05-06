@@ -1032,6 +1032,22 @@
   opacity: 1;
 }
 
+/* Preferred agent quick-launch — highlighted when set */
+.session-top-action--preferred {
+  opacity: 0.8;
+}
+.session-top-action--preferred:hover {
+  opacity: 1;
+}
+
+/* Unset placeholder — extra muted so it doesn't distract */
+.session-top-action--set-preferred {
+  opacity: 0.38;
+}
+.session-top-action--set-preferred:hover {
+  opacity: 0.8;
+}
+
 .session-favorites-section {
   min-height: 6px;
   margin: 0 8px;
